@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1c6f70f7-b8b2-42db-b1ff-5d357f4ec45c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1gTkh2gAx4r2kynYNdlKA42Ac2c" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/styles" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/styles" />
+      <recent name="$PROJECT_DIR$/public/images/icons" />
+      <recent name="$PROJECT_DIR$/public/images" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1c6f70f7-b8b2-42db-b1ff-5d357f4ec45c" name="Default Changelist" comment="" />
+      <created>1598146085641</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598146085641</updated>
+      <workItem from="1598146087905" duration="20564000" />
+      <workItem from="1598309821065" duration="358000" />
+      <workItem from="1598484051152" duration="959000" />
+      <workItem from="1598485022526" duration="626000" />
+      <workItem from="1598485690700" duration="6012000" />
+      <workItem from="1598587956865" duration="3918000" />
+      <workItem from="1598601237913" duration="113000" />
+      <workItem from="1598947050724" duration="1740000" />
+      <workItem from="1598998273609" duration="721000" />
+      <workItem from="1600035937050" duration="747000" />
+      <workItem from="1600458142993" duration="8277000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="851" y="392" width="226" height="304" key="#File_Watchers" timestamp="1598229052315">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="851" y="392" key="#File_Watchers/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1598229052315" />
+    <state x="2771" y="392" width="226" height="304" key="#File_Watchers/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1598217786128" />
+    <state x="715" y="437" width="498" height="258" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1598487318036">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="715" y="437" width="498" height="258" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1598487318036" />
+    <state x="570" y="328" width="787" height="440" key="EditFileWatcherDialog" timestamp="1598234490336">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="570" y="328" key="EditFileWatcherDialog/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1598234490336" />
+    <state x="2490" y="328" width="787" height="440" key="EditFileWatcherDialog/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1598217785408" />
+    <state width="1895" height="295" key="GridCell.Tab.0.bottom" timestamp="1598217871140">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1895" height="295" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1598217871140" />
+    <state width="1895" height="295" key="GridCell.Tab.0.center" timestamp="1598217871139">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1895" height="295" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1598217871139" />
+    <state width="1895" height="295" key="GridCell.Tab.0.left" timestamp="1598217871139">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1895" height="295" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1598217871139" />
+    <state width="1895" height="295" key="GridCell.Tab.0.right" timestamp="1598217871139">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1895" height="295" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1598217871139" />
+    <state x="491" y="190" width="937" height="708" key="SettingsEditor" timestamp="1598234491016">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="491" y="190" key="SettingsEditor/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1598234491016" />
+    <state x="2411" y="190" width="937" height="708" key="SettingsEditor/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1598217753084" />
+    <state x="2561" y="61" width="646" height="966" key="find.popup" timestamp="1598222528933">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2561" y="61" width="646" height="966" key="find.popup/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1598222528933" />
+    <state x="620" y="263" key="run.anything.popup" timestamp="1598235952710">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="620" y="263" key="run.anything.popup/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1598235952710" />
+  </component>
+</project>

@@ -1,0 +1,212 @@
+$flexPadding: 2%;
+$flexMargin: 1%;
+
+$borderRadius: 0px;
+$borderWidth: 3px;
+
+//$backgroundMain: #FCF7F8;
+$backgroundMain: #17181c;
+$shadow: 3px 3px 3px 3px #ccc;
+
+$borderColor: #8fc866;
+
+$hoverTransition: .3s;
+
+$colors: (
+        fill: #a972cb,
+        pulse: #ef6eae,
+        close: #ff7f82,
+        raise: #ffa260,
+        up: #e4cb58,
+        slide: #8fc866,
+        offset: #19bc8b
+);
+
+$buttonColor: (
+        csc: #ffa260,
+        hobbies: #8fc866,
+        lmkm: #19bc8b
+);
+
+body {
+  //background-color: #DAF7DC;
+  background-color: $backgroundMain;
+  color: #fff;
+  font-family: 'Noto Sans JP', sans-serif;
+
+  overflow-wrap: normal;
+
+  padding: 0;
+  margin: 0;
+
+}
+
+.socialMedia {
+  float: left;
+  vertical-align: center;
+  margin: $flexMargin;
+  //padding: $flexPadding;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+
+  a {
+    flex: 1;
+  }
+
+  .fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px 2px;
+    border-radius: 50%;
+    transition-duration: $hoverTransition;
+
+    background: $backgroundMain;
+    color: white;
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+
+  //.fa-instagram {
+  //  background: #125688;
+  //  color: white;
+  //}
+  //.fa-facebook {
+  //  background: #3B5998;
+  //  color: white;
+  //}
+  //.fa-google {
+  //  background: #dd4b39;
+  //  color: white;
+  //}
+  //.fa-reddit {
+  //  background: #ff5700;
+  //  color: white;
+  //}
+}
+
+.profile {
+  justify-content: flex-start;
+  display: flex;
+  align-items: stretch;
+  //box-shadow: $shadow;
+  color: #fff;
+  background-color: $backgroundMain;
+  //border: 1px solid red;
+
+
+  .profileImageContainer {
+    //border: 1px solid red;
+    //max-width: 30%;
+    //max-height: 100%;
+    width: 100%;
+
+
+    //margin: $flexMargin;
+    padding: $flexPadding;
+    padding-left: 0px;
+
+    flex: 1;
+
+    vertical-align: top;
+
+    .profileImage {
+      width: 100%;
+      //border-radius: $borderRadius;
+      border: $borderWidth solid #e4cb58;
+    }
+  }
+
+
+
+  .profileInfo {
+
+    //border: 1px solid red;
+
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    //margin: $flexMargin;
+    padding: $flexPadding;
+    padding-left: 0px;
+
+
+    .profileIntro {
+      //box-shadow: $shadow;
+      border-radius: $borderRadius;
+
+      margin: $flexMargin;
+      margin-top: 0;
+      padding: $flexPadding;
+      border: $borderWidth solid #ff7f82;
+      flex: 1;
+
+
+      //h2 {
+      //  margin: 5px;
+      //  font-size: medium;
+      //}
+
+      strong {
+        color: #ff7f82;
+      }
+
+    }
+
+    .profileNavigationWrapper{
+      flex: 1;
+
+
+    }
+
+    .profileNavigation {
+      display: flex;
+      flex-wrap: wrap;
+
+      //border: 1px solid red;
+
+
+      button {
+        flex: 1;
+        //min-width: 49%;
+
+        text-align: center;
+
+        //box-shadow: $shadow;
+        margin: $flexMargin;
+        padding: $flexPadding;
+        border-radius: $borderRadius;
+        border: $borderWidth solid $borderColor;
+
+        transition: $hoverTransition;
+
+        color: $borderColor;
+        background-color: $backgroundMain;
+        font-size: larger;
+
+        &:hover,
+        &:focus {
+          //box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+          transform: translateY(-0.25em);
+        }
+
+      }
+
+      @each $button, $col in $buttonColor {
+        .#{$button} {
+          color: #{$col};
+          border-color: #{$col};
+        }
+      }
+    }
+  }
+
+}
+
+

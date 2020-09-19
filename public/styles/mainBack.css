@@ -1,0 +1,109 @@
+body {
+  background-color: #17181c;
+  color: #fff;
+  font-family: "Noto Sans JP", sans-serif;
+  overflow-wrap: normal;
+  padding: 0;
+  margin: 0;
+}
+
+.socialMedia {
+  float: left;
+  vertical-align: center;
+  margin: 1%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+.socialMedia a {
+  flex: 1;
+}
+.socialMedia .fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 2px;
+  border-radius: 50%;
+  transition-duration: 0.3s;
+  background: #17181c;
+  color: white;
+}
+.socialMedia .fa:hover {
+  opacity: 0.7;
+}
+
+.profile {
+  justify-content: flex-start;
+  display: flex;
+  align-items: stretch;
+  color: #fff;
+  background-color: #17181c;
+}
+.profile .profileImageContainer {
+  width: 100%;
+  padding: 2%;
+  padding-left: 0px;
+  flex: 1;
+  vertical-align: top;
+}
+.profile .profileImageContainer .profileImage {
+  width: 100%;
+  border: 3px solid #e4cb58;
+}
+.profile .profileInfo {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  padding-left: 0px;
+}
+.profile .profileInfo .profileIntro {
+  border-radius: 0px;
+  margin: 1%;
+  margin-top: 0;
+  padding: 2%;
+  border: 3px solid #ff7f82;
+  flex: 1;
+}
+.profile .profileInfo .profileIntro strong {
+  color: #ff7f82;
+}
+.profile .profileInfo .profileNavigationWrapper {
+  flex: 1;
+}
+.profile .profileInfo .profileNavigation {
+  display: flex;
+  flex-wrap: wrap;
+}
+.profile .profileInfo .profileNavigation button {
+  flex: 1;
+  text-align: center;
+  margin: 1%;
+  padding: 2%;
+  border-radius: 0px;
+  border: 3px solid #8fc866;
+  transition: 0.3s;
+  color: #8fc866;
+  background-color: #17181c;
+  font-size: larger;
+}
+.profile .profileInfo .profileNavigation button:hover, .profile .profileInfo .profileNavigation button:focus {
+  transform: translateY(-0.25em);
+}
+.profile .profileInfo .profileNavigation .csc {
+  color: #ffa260;
+  border-color: #ffa260;
+}
+.profile .profileInfo .profileNavigation .hobbies {
+  color: #8fc866;
+  border-color: #8fc866;
+}
+.profile .profileInfo .profileNavigation .lmkm {
+  color: #19bc8b;
+  border-color: #19bc8b;
+}
+
+/*# sourceMappingURL=mainBack.css.map */
