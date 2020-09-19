@@ -16,12 +16,12 @@ body {
   justify-content: center;
   display: inline-flex;
   align-items: center;
-  margin: 0.5vw 0;
+  margin: 0.5rem 0;
 }
 .header span {
   transition-duration: 0.3s;
-  padding: 0.5vw 1vw;
-  margin: 0 0.5vw;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
   display: inline-flex;
   align-items: center;
   border: 0.25rem solid #17181c;
@@ -81,9 +81,18 @@ a {
 }
 .profile .profileBlock {
   border: 0.5rem solid #ff7f82;
-  padding: 1vw;
-  margin: 1vw auto;
-  width: 70vw;
+  padding: 1rem;
+  margin: 1rem auto;
+  width: 90vw;
+}
+.profile .profileBlock p {
+  padding: 1.5rem;
+  margin: 1.5rem;
+  background-color: #22242a;
+  color: #CCC;
+}
+.profile .profileBlock .multicolWrapper {
+  display: flex;
 }
 .profile .profileBlock:nth-child(1) {
   border-color: #ff7f82;
@@ -122,9 +131,9 @@ a {
   color: #8fc866;
 }
 .profile .profileImage {
-  padding: 1vw;
-  width: 15vw;
-  height: 15vw;
+  padding: 1rem;
+  width: 20rem;
+  height: 20rem;
   border-radius: 50%;
   margin: 0 auto;
   display: block;
@@ -150,7 +159,7 @@ a {
 }
 
 .footer {
-  margin-bottom: 1vw;
+  margin-bottom: 1rem;
 }
 .footer .socialMedia {
   text-align: center;
@@ -167,10 +176,10 @@ a {
   border: 0.25rem solid #17181c;
   transition-duration: 0.3s;
   opacity: 1;
-  width: 3vw;
-  height: 3vw;
-  margin-left: 1vw;
-  margin-right: 1vw;
+  width: 3rem;
+  height: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 .footer .socialMedia a:hover {
   color: #fff;

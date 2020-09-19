@@ -1,12 +1,12 @@
-$paddingDefault: 1vw;
-$marginDefault: 1vw;
+$paddingDefault: 1rem;
+$marginDefault: 1rem;
 
-$paddingHeader: 1vw;
-$marginHeader: .5vw;
+$paddingHeader: 1rem;
+$marginHeader: .5rem;
 
 $borderWidth: .5rem;
 
-$contentWidth: 70vw;
+$contentWidth: 90vw;
 
 $colorRepeat: 5;
 
@@ -127,12 +127,35 @@ a{
   }
 
   .profileBlock {
+
+    h1 {
+      //padding: 0 10vw;
+      //text-align: center;
+      //margin: 0;
+    }
+
+    //
+
+    p {
+      padding: 1.5rem;
+      margin: 1.5rem;
+      background-color: $backgroundLight;
+      //padding: 10rem;
+      color: #CCC;
+    }
+
+    .multicolWrapper {
+      display: flex;
+
+    }
+
     border: $borderWidth solid #ff7f82;
 
     @for $i from 1 to 5 {
       &:nth-child(#{$i}) {
         border-color: nth($colors, $i + 2);
-        strong{
+
+        strong {
           color: nth($colors, $i+ 2);
         }
 
@@ -160,8 +183,8 @@ a{
 
   .profileImage {
     padding: $paddingDefault;
-    width: 15vw;
-    height: 15vw;
+    width: 20rem;
+    height: 20rem;
     border-radius: 50%;
     //float: left;
     margin: 0 auto;
@@ -169,7 +192,7 @@ a{
 
     transition-duration: $hoverTransition;
 
-    &:hover{
+    &:hover {
       //transform: scale(0.99);
     }
   }
@@ -238,13 +261,13 @@ a{
 
       //border-radius: 10%;
 
-      width: 3vw;
-      height: 3vw;
+      width: 3rem;
+      height: 3rem;
 
-      margin-left: 1vw;
-      margin-right: 1vw;
+      margin-left: 1rem;
+      margin-right: 1rem;
 
-      &:hover{
+      &:hover {
         //border: .25rem solid #fff;
         //background-color: $backgroundMain;
         color: #fff;
@@ -256,48 +279,5 @@ a{
   }
 
 }
-
-
-//.profileNavigation {
-//  display: grid;
-//  grid-template-columns: repeat(2, 1fr);
-//  grid-template-rows: repeat(2, 1fr);
-//
-//  //border: 1px solid red;
-//
-//
-//  button {
-//    flex: 1;
-//    //min-width: 49%;
-//
-//    text-align: center;
-//
-//    //box-shadow: $shadow;
-//    margin: $flexMargin;
-//    padding: $flexPadding;
-//    border-radius: $borderRadius;
-//    border: $borderWidth solid $borderColor;
-//
-//    transition: $hoverTransition;
-//
-//    color: $borderColor;
-//    background-color: $backgroundMain;
-//    font-size: larger;
-//
-//    &:hover,
-//    &:focus {
-//      //box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
-//      transform: translateY(-0.25em);
-//    }
-//
-//  }
-//
-//  @each $button, $col in $buttonColor {
-//    .#{$button} {
-//      color: #{$col};
-//      border-color: #{$col};
-//    }
-//  }
-//}
 
 
